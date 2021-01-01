@@ -1,0 +1,9 @@
+.lista {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  padding: 12px;
+}

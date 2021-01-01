@@ -1,0 +1,8 @@
+.Div1,
+.Div2,
+.Div3 {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border-style: dotted;
+}
