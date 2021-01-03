@@ -1,0 +1,91 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+html {
+  font-size: 18px;
+}
+
+.wrap,
+.container,
+.wrapFooter {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.wrapFooter {
+  align-items: center;
+}
+.wrap,
+.wrapFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  align-items: center;
+}
+.menu-header {
+  display: flex;
+  align-items: center;
+}
+.title-menu {
+  font-size: 1.8rem;
+  font-weight: 600;
+  align-items: center;
+}
+
+.button-list {
+  display: flex;
+}
+.button {
+  padding: 10px 0 10px 10px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex-grow: 1;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.name-date {
+  display: inline-block;
+  padding: 20px 0;
+  color: gray;
+}
+.title {
+  padding: 1rem 0;
+}
+.paragraph {
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+footer {
+  padding: 0.5rem 0;
+  border: grey solid 2px;
+  color: grey;
+  border-top: lightgray solid 1px;
+  border-bottom: lightgray solid 1px;
+}
+
+.social-media-button {
+  padding: 10px 5px;
+  color: grey;
+  display: flex;
+}
+.smb {
+  padding-left: 10px;
+}
