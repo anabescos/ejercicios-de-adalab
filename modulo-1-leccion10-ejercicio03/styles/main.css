@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.form {
+  width: 100%;
+  background-color: aqua;
+}
+.boxForm {
+  display: block;
+  margin: 10px;
+}
+.box1 {
+  width: 60%;
+  display: inline;
+}
+.box2 {
+  display: inline;
+  width: 30%;
+}
