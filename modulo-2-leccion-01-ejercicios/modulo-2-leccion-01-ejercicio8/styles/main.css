@@ -1,0 +1,18 @@
+.button1 {
+  text-transform: capitalize;
+  padding: 10px;
+  border: 2px solid cyan;
+  color: black;
+  background-color: blanchedalmond;
+}
+.button2 {
+  text-transform: capitalize;
+  padding: 10px;
+  border: 2px solid cyan;
+  color: black;
+  background-color: blanchedalmond;
+}
+
+.opacity {
+  opacity: 0.2;
+}
