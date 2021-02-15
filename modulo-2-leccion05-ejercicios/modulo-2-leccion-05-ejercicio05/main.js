@@ -1,16 +1,14 @@
 'use strict';
 
-const keyBackground = document;
-
+const keyBackground = document.querySelector('.page');
+console.log(document);
 function setBackground (event) {
     if(event.key === 'r'){
-        console.log('Hola');
-        document.body.style.backgroundColor = 'red';
-        // keyBackground.classList.toggle ('page');
+        console.log(event.key);
+        keyBackground.classList.toggle('page1');
     }
     if (event.key === 'm'){
-        // keyBackground.classList.toggle ('page2');
-        document.body.style.backgroundColor = 'purple';
+        keyBackground.classList.toggle('page2');
     }
 }
 
